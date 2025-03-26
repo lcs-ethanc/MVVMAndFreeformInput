@@ -6,6 +6,7 @@
 //
 
 import Foundation
+@Observable
 class PowerViewModel {
     
     // MARK: Stored properties
