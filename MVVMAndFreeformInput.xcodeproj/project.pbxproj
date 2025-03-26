@@ -12,6 +12,7 @@
 		4446539A2D945E3700AD1CF3 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444653952D945E3700AD1CF3 /* PowerView.swift */; };
 		4446539B2D945E3700AD1CF3 /* MVVMAndFreeformInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444653962D945E3700AD1CF3 /* MVVMAndFreeformInputApp.swift */; };
 		444653A32D945EF000AD1CF3 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444653A22D945EF000AD1CF3 /* Power.swift */; };
+		444653AF2D9460A000AD1CF3 /* PowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444653AE2D9460A000AD1CF3 /* PowerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		444653952D945E3700AD1CF3 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
 		444653962D945E3700AD1CF3 /* MVVMAndFreeformInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeformInputApp.swift; sourceTree = "<group>"; };
 		444653A22D945EF000AD1CF3 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		444653AE2D9460A000AD1CF3 /* PowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		444653A12D945EA800AD1CF3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				444653AE2D9460A000AD1CF3 /* PowerViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444653AF2D9460A000AD1CF3 /* PowerViewModel.swift in Sources */,
 				4446539A2D945E3700AD1CF3 /* PowerView.swift in Sources */,
 				444653A32D945EF000AD1CF3 /* Power.swift in Sources */,
 				4446539B2D945E3700AD1CF3 /* MVVMAndFreeformInputApp.swift in Sources */,
